@@ -1,0 +1,66 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+	box-sizing: border-box;
+	background-color: #242524;
+}
+
+body {
+	width: 100vh;
+	height: 100vh;
+}
+
+header {
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+li, a, button {
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+
+#logo {
+	cursor: pointer;
+}
+
+.nav__links {
+	list-style: none;
+	text-transform: uppercase;
+}
+
+.nav__links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+	color: #f0ed44;
+}
+
+#userInfo a {
+	display: inline-block;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#userInfo span {
+	color: white;
+}
+
+#userInfo img {
+	border-radius: 50%;
+	width: 20%;
+}
