@@ -9,9 +9,10 @@
 body {
 	width: 100vh;
 	height: 100vh;
+	font-family: Montserrat, sans-serif;
 }
 
-header {
+#navbar {
 	width: 100vw;
 	display: flex;
 	justify-content: space-between;
@@ -19,8 +20,51 @@ header {
 	padding: 30px 10%;
 }
 
-li, a, button {
-	font-family: Montserrat;
+#heading {
+	background-image: url('../img/capa-madmax.jpg');
+}
+
+#movieInfo {
+	position: absolute;
+	top: 280px;
+	left: 160px;
+}
+
+#movieTitle h1 {
+	color: whitesmoke;
+	font-size: 4rem;
+	letter-spacing: 3px;
+	width: 70vw;
+}
+
+#tags {
+	color: whitesmoke;
+	font-size: 1rem;
+	overflow: hidden;
+}
+
+#movieInfo button {
+	background-color: rgb(235, 168, 46);
+	color: black;
+	padding: 15px 45px;
+	border-radius: 30px;
+	border: 1px solid transparent;
+	margin: 10px 0;
+}
+
+#availableCinema {
+	color: white;
+}
+
+#releaseDate {
+	color: rgb(235, 168, 46);
+}
+
+#links {
+	margin-bottom: 10px;
+}
+
+li, a {
 	font-weight: 700;
 	font-size: 16px;
 	color: white;
